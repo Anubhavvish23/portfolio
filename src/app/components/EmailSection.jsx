@@ -21,6 +21,7 @@ const EmailSection = () => {
   </a>.
 </p>
 
+
         </p>
         <div className="socials flex flex-row gap-2">
           {/* Email link */}

@@ -5,6 +5,7 @@ import ProjectsSection from "./components/ProjectsSection";
 import EmailSection from "./components/EmailSection";
 import  Skills  from "./components/Skills";
 import Footer from "./components/Footer";
+//import NotarcSection from "./components/NotarcSection";
 
 
 export default function Home() {
@@ -16,8 +17,11 @@ export default function Home() {
         <AboutSection />
         <ProjectsSection />
         <Skills />
+      
         <EmailSection />  
+        
       </div>
+      
       <Footer />
     </main>
   );
