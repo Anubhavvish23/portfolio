@@ -5,8 +5,8 @@ import ProjectsSection from "./components/ProjectsSection";
 import EmailSection from "./components/EmailSection";
 import  Skills  from "./components/Skills";
 import Footer from "./components/Footer";
-//import NotarcSection from "./components/NotarcSection";
-
+import NotarcSection from "./components/NotarcSection";
+import PhotoGallery from './components/PhotoGallery';
 
 export default function Home() {
   return (
@@ -17,11 +17,11 @@ export default function Home() {
         <AboutSection />
         <ProjectsSection />
         <Skills />
-      
+        <NotarcSection />
+        <PhotoGallery />
         <EmailSection />  
         
       </div>
-      
       <Footer />
     </main>
   );
