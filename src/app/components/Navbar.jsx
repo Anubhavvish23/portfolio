@@ -1,7 +1,7 @@
 "use client";
-import Link from "next/link";
+
 import React, { useState } from "react";
-import NavLink from "./NavLink";
+import Link from "next/link"; // Import Link from Next.js
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/solid";
 import MenuOverlay from "./MenuOverlay";
 
@@ -26,12 +26,12 @@ const Navbar = () => {
   return (
     <nav className="fixed mx-auto border border-[#33353F] top-0 left-0 right-0 z-10 bg-[#121212] bg-opacity-100">
       <div className="flex container lg:py-4 flex-wrap items-center justify-between mx-auto px-4 py-2">
-        <Link
-          href={"/"}
-          className="text-2xl md:text-5xl text-white font-semibold"
-        >
-        
+        {/* Add Link for the homepage */}
+        <Link href="/" className="text-2xl md:text-5xl text-white font-semibold">
+          {/* Replace with your brand name or logo */}
         </Link>
+
+        {/* Mobile menu icon */}
         <div className="mobile-menu block md:hidden">
           {!navbarOpen ? (
             <button
@@ -49,16 +49,22 @@ const Navbar = () => {
             </button>
           )}
         </div>
+
+        {/* Desktop menu */}
         <div className="menu hidden md:block md:w-auto" id="navbar">
           <ul className="flex p-4 md:p-0 md:flex-row md:space-x-8 mt-0">
             {navLinks.map((link, index) => (
               <li key={index}>
-                <NavLink href={link.path} title={link.title} />
+                <Link href={link.path} className="text-white hover:text-blue-500">
+                  {link.title}
+                </Link>
               </li>
             ))}
           </ul>
         </div>
       </div>
+
+      {/* Mobile overlay menu */}
       {navbarOpen ? <MenuOverlay links={navLinks} /> : null}
     </nav>
   );

@@ -12,12 +12,11 @@ const TAB_DATA = [
       <ul className="list-disc pl-2">
         <li>Power Bi</li>
         <li>Python</li>
-        <li>PostgreSQL</li>
         <li>Machine Learning</li>
         <li>Iot</li>
         <li>Figma</li>
         <li>React</li>
-        <li>Full Stack(Django)</li>
+        <li>Full Stack</li>
       </ul>
     ),
   },
