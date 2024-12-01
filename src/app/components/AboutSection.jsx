@@ -17,6 +17,7 @@ const TAB_DATA = [
         <li>Figma</li>
         <li>React</li>
         <li>Full Stack</li>
+        <li>Drone Technology</li>
       </ul>
     ),
   },
@@ -37,6 +38,7 @@ const TAB_DATA = [
       <ul className="list-disc pl-2">
         <li>Power Bi Certification</li>
         <li>Machine Learning</li>
+        <li>Java</li>
         <li>Full Stack in Django</li>
       </ul>
     ),

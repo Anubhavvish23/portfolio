@@ -37,6 +37,30 @@ const skillsData = [
     image: "/images/notarc.png",
     tag: ["All", "Web"],
   },
+  {
+    id: 5,
+    title: "Won in a national level Competition",
+    description:
+      "I secured first place in a national-level competition held at RajaRajeswari Engineering College, showcasing innovative drone applications. The event highlighted the use of drones in solving real-world problems, and my project stood out for its creativity, technical execution, and practical impact. This achievement reflects my expertise in robotics, drone technology, and application-driven solutions.",
+    image: "/images/me1.jpg",
+    tag: ["All", "Web"],
+  },
+  {
+    id: 6,
+    title: "Won 12 months incubation  with upto 3 lakhs funding support",
+    description:
+      "I was awarded a 12-month incubation opportunity at Acharya, along with funding support of up to ₹3 lakhs. This program is designed to nurture innovative ideas and provide mentorship, resources, and financial backing to transform them into successful ventures. This achievement highlights my entrepreneurial potential and commitment to creating impactful, technology-driven solutions.",
+    image: "/images/me2.jpg",
+    tag: ["All", "Web"],
+  },
+  {
+    id: 7,
+    title: "Conducted Workshops at internatioal schools and innovation Hubs",
+    description:
+      "I have successfully conducted workshops at prestigious international schools and innovation hubs, focusing on cutting-edge technologies like drones, robotics, and IoT. These sessions provided hands-on learning experiences, inspiring young minds to explore and innovate in the fields of science and technology. This initiative demonstrates my dedication to fostering a culture of innovation and education on a global scale..",
+    image: "/images/me3.jpg",
+    tag: ["All", "Web"],
+  },
   // Add more projects here
 ];
 

@@ -50,6 +50,15 @@ const projectsData = [
     gitUrl: "/",
     previewUrl: "/",
   },
+  {
+    id: 4,
+    title: "AI-Powered Medical ChatBot",
+    description: "The Medibot is a cutting-edge healthcare assistant with a sleek, humanoid design. It features a glowing chest interface displaying health metrics, precision diagnostic tools, and a screen for patient interaction. Designed for functionality and approachability, it operates in modern medical environments, combining AI and advanced technology to provide efficient and accessible healthcare support.",
+    image: "/images/projects/p6.WEBP",
+    tag: ["All", "Web"],
+    gitUrl: "/",
+    previewUrl: "/",
+  },
 ];
 
 const ProjectsSection = () => {
